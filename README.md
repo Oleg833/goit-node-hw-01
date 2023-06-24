@@ -2,4 +2,4 @@
 
 goit-node-hw-01
 
-allOperatios: https://monosnap.com/file/aXlqYbtHxIC06mjkAnOkuJxe6gJVkr
+allOperations: https://monosnap.com/file/aXlqYbtHxIC06mjkAnOkuJxe6gJVkr
