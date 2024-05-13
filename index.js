@@ -45,4 +45,17 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-invokeAction(argv);
+// invokeAction(argv);
+
+const fs = require("fs/promises");
+const path = require("path");
+
+const contactsPath = path.join("db1");
+
+async function test() {
+  const data = await fs.readdir(contactsPath, "utf-8");
+  console.log("data=", data);
+  return;
+}
+
+test();
